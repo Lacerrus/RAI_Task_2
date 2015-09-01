@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 2</title>
+</head>
+<style type="text/css">
+#cv {
+	background : gray;
+	height : auto;
+	width : 500px;
+	margin : 0px auto;
+	border : 2px solid black;
+	border-collapse: collapse;
+}
+#cv > #judul {
+	height : auto;
+	margin : 0px auto;
+	text-align : center;
+}
+
+p {
+  font-family: "Comic Sans MS", Georgia, Serif;
+  text-align: center;
+}
+ul.a {
+  list-style-type: square;
+}
+a:hover {
+  background-color: black;
+}
+</style>
+<body background="bg.jpg">
+<div id="cv">
+  <div id="judul"><h2> Basic CSS </h2>  </div>
+    <font size="5">size 5</font><br/>
+    <font size="10">size 10</font>
+    <p> Comic</p>
+
+    <ul>
+      <li>Coffe</li>
+      <li>Tea</li>
+      <li>Sprite</li>
+    </ul>
+    <a href="#">Hover</a>
+ </div>
+</body>
+</html>
